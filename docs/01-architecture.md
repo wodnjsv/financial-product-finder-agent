@@ -67,6 +67,7 @@
 - **그래프 질의** (지식 그래프): 섹터뷰/테마 → 밸류체인 세그먼트 → 노출 상품 경로 탐색.
 
 LLM이 아닌 규칙 기반 변환기다. 슬롯 값 → 쿼리 매핑 테이블이 이 컴포넌트의 실체이며, 제품 품질의 절반이 여기에 있다.
+정책 테이블 구조·제약 완화 규칙·LLM fallback 경계 상세: [06-query-planner.md](06-query-planner.md)
 
 ### ③ 검색·랭킹 엔진
 
@@ -154,3 +155,4 @@ Phase 1은 애널리스트 에이전트 없이도 유용해야 한다 — 콜드
 - [03-graph-schema.md](03-graph-schema.md) — 지식 그래프 스키마
 - [04-data-pipeline.md](04-data-pipeline.md) — 데이터 수집 계획
 - [05-analyst-structure.md](05-analyst-structure.md) — 애널리스트 내부 구조와 학습 루프 (두 축 설계)
+- [06-query-planner.md](06-query-planner.md) — 쿼리 플래너 (정책 테이블·제약 완화·LLM fallback)
