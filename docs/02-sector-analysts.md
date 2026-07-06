@@ -18,6 +18,7 @@
 세그먼트 ID 규약: `{섹터코드}.{체인}.{단계}` 예: `IT.semi.equipment`. 그래프 스키마 문서에서 이 ID를 그대로 사용한다.
 
 에이전트 산출물 3종(뷰·그래프 갱신 제안·모니터링 노트)과 기록 규칙은 [01-architecture.md §3-⑤](01-architecture.md) 참조.
+애널리스트 내부 구조(스킬 라이브러리·리서치 메모리·두 축 학습 루프)는 12명 전원 공통이며 [05-analyst-structure.md](05-analyst-structure.md)에 정의한다.
 
 ---
 
